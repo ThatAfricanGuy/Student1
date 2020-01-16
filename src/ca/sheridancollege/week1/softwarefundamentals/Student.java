@@ -12,6 +12,15 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private String iD;
+
+    public void setiD(String iD) {
+        this.iD = iD;
+    }
+
+    public String getiD() {
+        return iD;
+    }
 
     /**
      * Get the value of name
