@@ -7,7 +7,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
  *
- * @author sidhu376
+ * @author sidhu376 The date is January 23rd, 2020.
  */
 public class Student {
     
