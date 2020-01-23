@@ -13,7 +13,33 @@ public class Student {
     
     private String name;
     private String iD;
+    private String email;
+    private String program;
     private int age;
+    
+    public void setAge(int age){
+        this.age = age;
+    }
+    public int getAge(){
+        return age;
+    }
+    
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+    public void setProgram(String program){
+        this.program = program;
+    }
+    
+    public String getProgram(){
+        return program;
+    }
+    
 
     public void setiD(String iD) {
         this.iD = iD;
