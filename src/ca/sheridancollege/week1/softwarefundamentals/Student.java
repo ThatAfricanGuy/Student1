@@ -13,6 +13,7 @@ public class Student {
     
     private String name;
     private String iD;
+    private int age;
 
     public void setiD(String iD) {
         this.iD = iD;
