@@ -16,6 +16,7 @@ public class Student {
     private String email;
     private String program;
     private int age;
+    private String status;
     
     public void setAge(int age){
         this.age = age;
